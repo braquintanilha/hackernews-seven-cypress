@@ -18,7 +18,7 @@ Uma vez que todas as dependências já estão listadas no arquivo `package.json`
 
 `npm test` - executa o Cypress em modo headless
 
-`npx cypress open` ou `npm cy:open`- executa o modo interativo do Cypress
+`npm cy:open`- executa o modo interativo do Cypress
 
 `npm lint` - executa a ferramenta de análise estática de código Lint e mostra o relatório de inconsistências
 
