@@ -1,39 +1,39 @@
 {
-  "name": "hackernews-seven-cypress",
-  "version": "1.0.0",
-  "description": "Projeto de estudo baseado nos cursos 'Testes automatizados com Cypress - avançado' e 'Boas práticas em automação de testes com Cypress da escola TAT'",
-  "main": "index.js",
-  "scripts": {
-    "lint": "npx standard",
-    "lint:fix": "npx standard --fix",
-    "test": "cypress run --reporter nyan",
-    "cy:open": "cypress open"
-  },
-  "standard": {
-    "globals": [
-      "beforeEach",
-      "context",
-      "cy",
-      "Cypress",
-      "describe",
-      "it"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/braquintanilha/hackernews-seven-cypress"
-  },
-  "keywords": [
-    "cypress",
-    "cypress.io",
-    "testing"
-  ],
-  "author": "Bruno Quintanilha <braquintanilha@gmail.com>",
-  "homepage": "https://github.com/braquintanilha/hackernews-seven-cypress#readme",
-  "devDependencies": {
-    "cypress": "^8.2.0",
-    "cypress-localstorage-commands": "^1.4.1",
-    "faker": "^5.4.0",
-    "standardjs": "^1.0.0-alpha"
-  }
+    "name": "hackernews-seven-cypress",
+    "version": "1.0.0",
+    "description": "Projeto de estudo baseado nos cursos 'Testes automatizados com Cypress - avançado' e 'Boas práticas em automação de testes com Cypress da escola TAT'",
+    "main": "index.js",
+    "scripts": {
+        "lint": "npx standard",
+        "lint:fix": "npx standard --fix",
+        "test": "cypress run --reporter nyan",
+        "cy:open": "cypress open"
+    },
+    "standard": {
+        "globals": [
+            "beforeEach",
+            "context",
+            "cy",
+            "Cypress",
+            "describe",
+            "it"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/braquintanilha/hackernews-seven-cypress"
+    },
+    "keywords": [
+        "cypress",
+        "cypress.io",
+        "testing"
+    ],
+    "author": "Bruno Quintanilha <braquintanilha@gmail.com>",
+    "homepage": "https://github.com/braquintanilha/hackernews-seven-cypress#readme",
+    "devDependencies": {
+        "cypress": "^10.10.0",
+        "cypress-localstorage-commands": "^1.4.1",
+        "faker": "^5.4.0",
+        "standardjs": "^1.0.0-alpha"
+    }
 }
