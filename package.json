@@ -6,7 +6,7 @@
     "scripts": {
         "lint": "npx standard",
         "lint:fix": "npx standard --fix",
-        "test": "cypress run --reporter nyan",
+        "test": "cypress run",
         "cy:open": "cypress open"
     },
     "standard": {
@@ -31,8 +31,9 @@
     "author": "Bruno Quintanilha <braquintanilha@gmail.com>",
     "homepage": "https://github.com/braquintanilha/hackernews-seven-cypress#readme",
     "devDependencies": {
-        "cypress": "^10.10.0",
+        "cypress": "^12.17.1",
         "cypress-localstorage-commands": "^1.4.1",
+        "cypress-mochawesome-reporter": "^3.5.1",
         "faker": "^5.4.0",
         "standardjs": "^1.0.0-alpha"
     }
